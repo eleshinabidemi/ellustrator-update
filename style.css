@@ -250,9 +250,9 @@ p {
 	animation-delay: 2.5s;
 }
 
-/* End Hero Section */
+/*Hero*/
 
-/* Services Section */
+/*Services*/
 #services .services {
 	flex-direction: column;
 	text-align: center;
@@ -311,9 +311,9 @@ p {
 	color: white;
 	text-align: left;
 }
-/* End Services Section */
+/*Services*/
 
-/* Projects section */
+/*Project*/
 #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
@@ -384,9 +384,9 @@ p {
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
 }
-/* End Projects section */
+/*Projects*/
 
-/* About Section */
+/*About*/
 #about .about {
 	flex-direction: column-reverse;
 	text-align: center;
@@ -432,9 +432,9 @@ p {
 	border: 7px solid crimson;
 	z-index: -1;
 }
-/* End About Section */
+/*About*/
 
-/* contact Section */
+/*contact*/
 #contact .contact {
 	flex-direction: column;
 	max-width: 1200px;
@@ -478,7 +478,7 @@ p {
 	line-height: 2rem;
 	font-weight: 500;
 }
-/*End contact Section */
+/*contact*/
 
 /* Footer */
 #footer {
@@ -512,7 +512,7 @@ p {
 	color: white;
 	font-size: 1.3rem;
 }
-/* End Footer */
+/*Footer */
 
 /* Keyframes */
 @keyframes hamburger_puls {
@@ -546,9 +546,9 @@ p {
 		font-weight: 500;
 	}
 }
-/* End Keyframes */
+/*Keyframes */
 
-/* Media Query For Tablet */
+/* Media Query Tab*/
 @media only screen and (min-width: 768px) {
 	.cta {
 		font-size: 2.5rem;
@@ -562,9 +562,9 @@ p {
 	#hero h1 {
 		font-size: 7rem;
 	}
-	/* End Hero */
+	/*Hero */
 
-	/* Services Section */
+	/* Services*/
 	#services .service-bottom .service-item {
 		flex-basis: 45%;
 		margin: 2.5%;
@@ -572,7 +572,7 @@ p {
 	.em{
 		color: crimson;
 	}
-	/* End Services Section */
+	/*Services*/
 
 	/* Project */
 	#projects .project-item {
@@ -593,7 +593,7 @@ p {
 	#projects .all-projects .project-img {
 		height: 100%;
 	}
-	/* End Project */
+	/*Project */
 
 	/* About */
 	#about .about {
@@ -618,7 +618,7 @@ p {
 	#about .col-right h1 {
 		text-align: left;
 	}
-	/* End About */
+	/*About */
 
 	/* contact  */
 	#contact .contact {
@@ -652,11 +652,11 @@ p {
 		text-align: left;
 		padding-left: 20px;
 	}
-	/* End contact  */
+	/*contact  */
 }
-/* End Media Query For Tablet */
+/*Media Query Tab */
 
-/* Media Query For Desktop */
+/* Media Query Desktop */
 @media only screen and (min-width: 1200px) {
 	/* header */
 	#header .hamburger {
@@ -685,4 +685,4 @@ p {
 		margin: 1.5%;
 	}
 }
-/* End  Media Query For Desktop */
+/* End  Media Query Desktop */
